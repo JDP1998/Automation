@@ -11,7 +11,7 @@ public class dlg_Silvester {
 		long differenz = weihnachten.getTimeInMillis()-heute.getTimeInMillis();
 		int tage;
 		tage=(int)(differenz/(1000*60*60*24))-30;
-		System.out.println("Es sind noch "+tage+" Tage bis Weihnachten");
+		System.out.println("Es sind noch "+tage+" Tage bis Silvester");
 
 	}
 
