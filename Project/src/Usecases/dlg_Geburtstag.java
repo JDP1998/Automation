@@ -21,7 +21,7 @@ public class dlg_Geburtstag {
 		if(tage<0) {
 			tage=365+tage;
 		}
-		System.out.println("Es sind noch "+tage+" Tage bis Weihnachten");
+		System.out.println("Es sind noch "+tage+" Tage bis zu meinem Geburtstag.");
 
 	}
 
