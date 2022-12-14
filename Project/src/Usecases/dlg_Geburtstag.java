@@ -5,7 +5,7 @@ import java.time.ZoneId;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-public class dlg_Weihnachten {
+public class dlg_Geburtstag {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,7 +14,7 @@ public class dlg_Weihnachten {
 		LocalDate local = d.toInstant().atZone(z).toLocalDate();
 		int year = local.getYear();
 		GregorianCalendar heute = new GregorianCalendar();
-		GregorianCalendar weihnachten = new GregorianCalendar(year, 12, 24);
+		GregorianCalendar weihnachten = new GregorianCalendar(year, 04, 13);
 		long differenz = weihnachten.getTimeInMillis()-heute.getTimeInMillis();
 		int tage;
 		tage=(int)(differenz/(1000*60*60*24))-30;
