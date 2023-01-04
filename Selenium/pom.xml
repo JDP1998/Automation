@@ -6,6 +6,11 @@
   <dependencies>
   <dependency>
   <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-support</artifactId>
+  <version>4.7.2</version>
+  </dependency>
+  <dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
   <artifactId>selenium-server</artifactId>
   <version>3.7.1</version>
   </dependency>
