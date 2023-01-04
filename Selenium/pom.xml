@@ -6,7 +6,7 @@
   <dependencies>
   <dependency>
   <groupId> org.seleniumhq.selenium </groupId>
-  <artifactId> selenium-java </artifactId>
+  <artifactId> selenium-chrome-driver </artifactId>
   <version>4.7.2</version>
   </dependency>
   </dependencies>
