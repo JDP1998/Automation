@@ -1,12 +1,12 @@
 package Usecases;
 
-public class dlg_FibonacciKill {
+public class dlg_Fibonacci2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		long start,end,time;
 		start=System.currentTimeMillis();
-		int i=0,z=60;
+		int i=0,z=65;
 		for(i=0;i<=z;i++) {
 			System.out.println("Fibunacci von "+i+" ist "+Fibonacci(i));
 		}
