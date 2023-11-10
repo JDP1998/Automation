@@ -1,8 +1,6 @@
 package Usecases;
 
-
-
-public class dlg_Fibonacci {
+public class dlg_FibonacciKill {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,13 +17,14 @@ public class dlg_Fibonacci {
 		System.out.println("Es hat "+time+" Minuten gedauert.");
 
 	}
+	
 	private static int Fibonacci(int i) {
 		// TODO Auto-generated method stub
 		if(i<=1) {
 			return 1;
 		}
 		else {
-			return Fibonacci(i-1)+Fibonacci(i-2);
+			return Fibonacci(i-1)+Fibonacci(i-3);
 		}
 	}
 
