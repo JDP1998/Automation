@@ -10,7 +10,7 @@ public class dlg_Fibonacci {
 		start=System.currentTimeMillis();
 		int i=0,z=60;
 		for(i=0;i<=z;i++) {
-			System.out.println("Fibunacci von "+i+" ist "+Fibonacci(i));
+			System.out.println("Fibonacci von "+i+" ist "+Fibonacci(i));
 		}
 		end=System.currentTimeMillis();
 		time=end-start;

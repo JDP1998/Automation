@@ -8,7 +8,7 @@ public class dlg_Fibonacci2 {
 		start=System.currentTimeMillis();
 		int i=0,z=65;
 		for(i=0;i<=z;i++) {
-			System.out.println("Fibunacci von "+i+" ist "+Fibonacci(i));
+			System.out.println("Fibonacci2 von "+i+" ist "+Fibonacci(i));
 		}
 		end=System.currentTimeMillis();
 		time=end-start;
