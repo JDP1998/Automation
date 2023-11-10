@@ -21,13 +21,13 @@ public class dlg_OOM {
 			driver.findElement(By.xpath("//*[@id=\"L2AGLb\"]/div")).click();
 			Thread.sleep(1000);	
 		}
-		driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")).click();
+		driver.findElement(By.xpath("//*[@id=\"APjFqb\"]")).click();
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")).sendKeys("Order of Merit");
+		driver.findElement(By.xpath("//*[@id=\"APjFqb\"]")).sendKeys("Order of Merit");
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")).submit();
+		driver.findElement(By.xpath("//*[@id=\"APjFqb\"]")).submit();
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//body/div[@id='main']/div[@id='cnt']/div[@id='rcnt']/div[@id='center_col']/div[@id='res']/div[@id='search']/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a[1]/h3[1]")).click();
+		driver.findElement(By.xpath("//*[@id=\"rso\"]/div[2]/div/div/div[1]/div/div/span/a/h3")).click();
 		Thread.sleep(1000); 
 		driver.findElement(By.xpath("//*[@id=\"cl-consent\"]/div[1]/div[1]/div[2]/a[2]")).click();
 		Thread.sleep(1000);
