@@ -15,13 +15,17 @@ public class dlg_Weihnachten {
 		int year = local.getYear();
 		GregorianCalendar heute = new GregorianCalendar();
 		GregorianCalendar weihnachten = new GregorianCalendar(year, 12, 24);
-		long differenz = weihnachten.getTimeInMillis()-heute.getTimeInMillis();
+		long differenz = weihnachten.getTimeInMillis() - heute.getTimeInMillis();
 		int tage;
-		tage=(int)(differenz/(1000*60*60*24))-30;
-		if(tage<0) {
-			tage=365+tage;
+		tage = (int) (differenz / (1000 * 60 * 60 * 24)) - 30;
+		if (tage < 0) {
+			tage = 366 + tage;
 		}
-		System.out.println("Es sind noch "+tage+" Tage bis Weihnachten");
+		if (tage == 365) {
+			System.out.println("Frohe Weihnachten");
+		} else {
+			System.out.println("Es sind noch " + tage + " Tage bis Weihnachten");
+		}
 
 	}
 

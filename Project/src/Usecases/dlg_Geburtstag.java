@@ -15,13 +15,17 @@ public class dlg_Geburtstag {
 		int year = local.getYear();
 		GregorianCalendar heute = new GregorianCalendar();
 		GregorianCalendar weihnachten = new GregorianCalendar(year, 04, 13);
-		long differenz = weihnachten.getTimeInMillis()-heute.getTimeInMillis();
+		long differenz = weihnachten.getTimeInMillis() - heute.getTimeInMillis();
 		int tage;
-		tage=(int)(differenz/(1000*60*60*24))-30;
-		if(tage<0) {
-			tage=365+tage;
+		tage = (int) (differenz / (1000 * 60 * 60 * 24)) - 30;
+		if (tage < 0) {
+			tage = 366 + tage;
 		}
-		System.out.println("Es sind noch "+tage+" Tage bis zu meinem Geburtstag.");
+		if (tage == 365) {
+			System.out.println("Alles Gute zum Geburtstag Johannes.");
+		} else {
+			System.out.println("Es sind noch " + tage + " Tage bis zu meinem Geburtstag.");
+		}
 
 	}
 
