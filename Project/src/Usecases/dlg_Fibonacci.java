@@ -8,7 +8,7 @@ public class dlg_Fibonacci {
 		// TODO Auto-generated method stub
 		long start,end,time;
 		start=System.currentTimeMillis();
-		int i=0,z=60;
+		int i=0,z=57;
 		for(i=0;i<=z;i++) {
 			System.out.println("Fibonacci von "+i+" ist "+Fibonacci(i));
 		}
