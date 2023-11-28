@@ -6,7 +6,7 @@ public class dlg_Fibonacci2 {
 		// TODO Auto-generated method stub
 		long start,end,time;
 		start=System.currentTimeMillis();
-		int i=0,z=70;
+		long i=0,z=70;
 		for(i=0;i<=z;i++) {
 			System.out.println("Fibonacci2 von "+i+" ist "+Fibonacci(i));
 		}
@@ -18,7 +18,7 @@ public class dlg_Fibonacci2 {
 
 	}
 	
-	private static int Fibonacci(int i) {
+	private static long Fibonacci(long i) {
 		// TODO Auto-generated method stub
 		if(i<=1) {
 			return 1;
