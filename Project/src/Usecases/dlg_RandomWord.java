@@ -10,8 +10,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.google.common.io.FileBackedOutputStream;
-
 public class dlg_RandomWord {
 
 	public static void main(String[] args) throws IOException {
@@ -36,7 +34,7 @@ public class dlg_RandomWord {
         }
         System.out.println("Das Zufallswort ist: "+word);
         datum = format.format(d);
-        BufferedWriter bWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(f,true)));
+        BufferedWriter bWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(f)));
         bWriter.write(d+": "+word);
         bWriter.close();
 	}
